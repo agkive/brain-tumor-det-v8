@@ -1,0 +1,15 @@
+# br35h.yaml
+
+# Root directory of your dataset
+path: /content/drive/MyDrive/brain_tumor_det/BR35H_roboflow_boxes
+# Image folders (relative to 'path')
+train: images/train
+val: images/val
+test: images/test   # optional but recommended
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: brain_tumor

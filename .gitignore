@@ -1,0 +1,16 @@
+# YOLO training outputs
+runs*/
+runs/
+
+# Datasets
+multiclass tumor dataset/
+BR35H_roboflow/
+BR35H_roboflow_boxes/
+
+# Python / Colab junk
+__pycache__/
+.ipynb_checkpoints/
+
+# Model weights
+*.pt
+BR35H roboflow/
